@@ -54,8 +54,8 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2024, 5, 28),
-    'email': ['kris@sparxinc.com'],
-    'email_on_failure': True,
+    'email': ['sample@email.com'],
+    'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
     'retry_delay': timedelta(minutes=1)
